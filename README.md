@@ -9,3 +9,7 @@ EXPLAIN Output Format(官方中文翻译)
 
 警告：不能在同一个explain语句中使用EXTENDED和RARTITIONS，此为，任意两个关键字都不能再format选项中一起使用。
 
+EXPLAIN Output Columns
+本节介绍explain产生的输出列。后面的部分提供了有关类型和额外列的附加信息。
+
+从解释每个输出行提供了有关一个表的信息。每行包含表9.1汇总值，“EXPLAIN Output Columns”，
