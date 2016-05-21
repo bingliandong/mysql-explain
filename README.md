@@ -1,3 +1,6 @@
 # mysql-explain
 EXPLAIN Output Format(官方中文翻译)
-by bingliandong
+
+这是一个关于select执行计划的解释语句.
+
+针对每一个表执行select计划，explain会return一行信息。按mysql运行select语句的顺序，并且以表格形式列出信息。mysql使用嵌套循环join方法解决所有的joins。这意味着mysql从第一个表中获取一行数据，然后再从第二个表中获取一行数据，然后是第三个表，等等。当所有的表执行完，mysql输出选中的列，直到一个表中发现其中有更多的匹配行通过表列表回溯。下一行被从该表中读出并且此过程在下一个表中继续。
